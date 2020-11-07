@@ -29,7 +29,7 @@
     "typings"
   ],
   "scripts": {
-    "build": "kcd-scripts build",
+    "build": "kcd-scripts build && rollup -c",
     "lint": "kcd-scripts lint",
     "setup": "npm install && npm run validate -s",
     "test": "kcd-scripts test",
@@ -45,7 +45,8 @@
     "@testing-library/jest-dom": "^5.11.1",
     "is-ci": "^2.0.0",
     "jest-serializer-ansi": "^1.0.3",
-    "kcd-scripts": "^6.2.3"
+    "kcd-scripts": "^6.2.3",
+    "rollup": "^2.33.1"
   },
   "peerDependencies": {
     "@testing-library/dom": ">=7.21.4"
