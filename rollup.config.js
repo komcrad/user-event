@@ -2,7 +2,7 @@ export default {
   input: 'src/index.js',
   external: ['@testing-library/dom'],
   output: {
-    file: 'umd/bundle.js',
+    file: 'umd/bundle.umd.js',
     format: 'umd',
     name: 'TestingLibraryUserEvent',
     globals: {
