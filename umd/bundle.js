@@ -1,7 +1,7 @@
 (function (global, factory) {
   typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory(require('@testing-library/dom')) :
   typeof define === 'function' && define.amd ? define(['@testing-library/dom'], factory) :
-  (global = typeof globalThis !== 'undefined' ? globalThis : global || self, global.UserEvent = factory(global.TestingLibraryDom));
+  (global = typeof globalThis !== 'undefined' ? globalThis : global || self, global.TestingLibraryUserEvent = factory(global.TestingLibraryDom));
 }(this, (function (dom) { 'use strict';
 
   function isMousePressEvent(event) {

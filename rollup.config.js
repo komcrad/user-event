@@ -4,7 +4,7 @@ export default {
   output: {
     file: 'umd/bundle.js',
     format: 'umd',
-    name: 'UserEvent',
+    name: 'TestingLibraryUserEvent',
     globals: {
       '@testing-library/dom': 'TestingLibraryDom',
     }
